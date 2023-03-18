@@ -1,0 +1,9 @@
+i = 0
+num = 0
+for pirat in range(10):
+  num += 1
+  print(num, end = '')
+  word = input(' Пират: ')
+  if word == 'карамба':
+    i += 1
+print('Слово КАРАМБА крикнуло', i, 'пиратов')
